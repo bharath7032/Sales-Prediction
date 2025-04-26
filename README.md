@@ -9,26 +9,27 @@ The goal is to build a reliable model that can predict with high accuracy and an
 
 # Dataset
 The dataset consists of 500 entries with the following features:
-### *Customer Name* (Ignored in model building)
-### *Customer Email* (Ignored in model building)
-### *Country* (Ignored in model building)
-### *Gender* (0: Male, 1: Female)
-### *Age* (Years)
-### *Annual Salary* (In dollars)
-### *Credit Card Debt* (In dollars)
-### *Net Worth* (In dollars)
+ **Customer Name** (Ignored in model building)
+ **Customer Email** (Ignored in model building)
+ **Country** (Ignored in model building)
+ **Gender** (0: Male, 1: Female)
+ **Age** (Years)
+ **Annual Salary** (In dollars)
+ **Credit Card Debt** (In dollars)
+ **Net Worth** (In dollars)
 
-## Target Variable:
-### Car Purchase Amount (In dollars)
+**Target Variable:**
+ Car Purchase Amount (In dollars)
 
 There are no missing values or duplicate records in the dataset, making it clean and ready for analysis.
 
-# Project Steps
+
 ## Data Exploration and Cleaning:
 - Checked for missing values, duplicates, and data types.
 - Dropped unnecessary columns (customer name, customer email, country).
 - Visualized data distributions and relationships.
 
+**Project Steps**
 # Project Structure
 
 Car-Purchase-Prediction/ ├── car_purchasing.csv ├── car_purchase_prediction.ipynb ├── requirements.txt └── README.md
