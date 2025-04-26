@@ -10,12 +10,19 @@ The goal is to build a reliable model that can predict with high accuracy and an
 # Dataset
 The dataset consists of 500 entries with the following features:
  **Customer Name** (Ignored in model building)
+ 
  **Customer Email** (Ignored in model building)
+ 
  **Country** (Ignored in model building)
+ 
  **Gender** (0: Male, 1: Female)
+ 
  **Age** (Years)
+ 
  **Annual Salary** (In dollars)
+ 
  **Credit Card Debt** (In dollars)
+ 
  **Net Worth** (In dollars)
 
 **Target Variable:**
@@ -48,20 +55,27 @@ or
 bash
 
 pip install -r requirements.txt
+
 **Run the Notebook or Python Script**:
+
 Open the Jupyter Notebook or run the Python script to see data analysis, model building, evaluation, and results.
 
 **View Model Performance:**
+
 The final section of the code provides a comparison graph between Linear Regression and Random Forest performances. You can also view actual vs predicted values.
 
 **Results**
 
 Model	R2 Score	RMSE (Root Mean Squared Error)
+
 Linear Regression	1.00	1.45
+
 Random Forest	0.95	2326.70
+
 Linear Regression performed extremely well on this dataset. Random Forest also showed good performance but slightly less compared to Linear Regression.
 
 **Project Highlights**
+
 Achieved high accuracy in predicting car purchase amounts.
 
 Clean and well-documented code with clear structure.
